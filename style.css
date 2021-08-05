@@ -4,6 +4,23 @@ h1 {
     font-size: 60px;
     margin-bottom: 24px;
     font-weight: 900;
+    margin-bottom: 24px;
+    text-align: center;
+}
+
+main > h4 {
+    color: #46484c;
+    font-family: "Slabo 27px", serif;
+    font-size: 20px;
+    margin-bottom: 30px;
+    font-weight: 400;
+}
+
+main > p {
+    color: #8b8b8bcc;
+    margin-top: 15px;
+    font-family: "Slabo 27px", serif;
+    font-size: 20px;
 }
 
 button {
@@ -18,4 +35,69 @@ button {
 
 body {
     background-color: #fffbf7;
+}
+
+.header {
+    margin: 40px 20px 0 20px;
+    font-size: 0;
+    height: 45px;
+    font-family: sans-serif;
+}
+
+.header > * {
+    display: inline-block;
+    font-size: 16px;
+}
+
+main {
+    margin-top: 250px;
+    text-align: center;
+}
+
+li {
+    display: inline;
+}
+
+.logo {
+    width: 20%;
+}
+
+.navbar {
+    width: 60%;
+    text-align: center;
+}
+
+
+.actions {
+    width: 20%;
+    padding: 0;
+    font-size: 14px;
+}
+
+.actions > * {
+    margin: 0 10px;
+}
+
+
+.navbar > ul {
+    padding-left: 0;
+    color: #025157;
+}
+
+.itemNavegacion {
+    padding: 8px 8px;
+    margin: 25px;
+}
+
+.actionsSignIn {
+    color: #67b54b;
+    text-decoration: none;
+}
+
+.actions > button {
+    background-color: #67b54b;
+    color: #ffffff;
+    padding: 12px 14px;
+    border: 0;
+    border-radius: 5px;
 }
